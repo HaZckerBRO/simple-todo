@@ -1,0 +1,19 @@
+{
+  "name": "simple-todo",
+  "version": "1.0.0",
+  "description": "test todo-list application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaZckerBRO/simple-todo.git"
+  },
+  "author": "HaZckerBRO",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HaZckerBRO/simple-todo/issues"
+  },
+  "homepage": "https://github.com/HaZckerBRO/simple-todo#readme"
+}
