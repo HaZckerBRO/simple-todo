@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap')
 @import "variables"
+@import "components/sidebar"
+@import "components/container"
+@import "components/todo"
 
 *
    margin: 0
@@ -9,3 +13,12 @@
 body
    font-family: 'Roboto', sans-serif
    font-size: 12px
+   background-color: $bodyBackground
+
+.anticon
+   cursor: pointer
+
+.anticon-plus-circle
+   transition: transform .15s
+   &:hover
+      transform: scale(1.1)

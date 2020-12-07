@@ -10,8 +10,6 @@ module.exports = (env = {}) => {
   const isProd = mode === 'production';
   const isDev = mode === 'development';
 
-  console.log('env', env);
-
   const getStyleLoaders = () => {
     return [
       isProd ? MiniCssExtractPlugin.loader : 'style-loader',

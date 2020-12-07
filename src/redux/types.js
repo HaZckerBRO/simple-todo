@@ -1,0 +1,4 @@
+export const CREATE_TASK = 'CREATE_TASK';
+export const DELETE_TASK = 'DELETE_TASK';
+export const CHANGE_PRIORITY = 'CHANGE_PRIORITY';
+export const CHANGE_STATUS = 'CHANGE_STATUS';
