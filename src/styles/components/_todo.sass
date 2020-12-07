@@ -1,0 +1,59 @@
+.Todo__header
+   background: $primary
+   padding: 15px
+
+.Todo__item-input
+   display: flex
+   align-items: center
+   textarea
+      margin-right: 10px
+
+.Todo__list
+   h2
+      padding: 20px 10px 10px
+      font-size: 18px
+      color: gray
+      text-align: center
+
+.Todo__item
+   position: relative
+   display: flex
+   align-items: center
+   padding: 15px 15px 15px 30px
+   border-top: 1px solid silver
+
+.Todo__item_index
+   position: absolute
+   left: 10px
+   font-size: 14px
+
+.Todo__item_status
+   margin-right: 20px
+   .ant-checkbox-wrapper
+      transform: scale(1.2)
+
+.Todo__item_text
+   width: 100%
+   font-size: 16px
+   cursor: default
+
+.Todo__item_control
+   display: flex
+   position: relative
+   top: -10px
+   span
+      transition: transform .22s
+      margin-left: 10px
+      cursor: default
+      &:hover
+         transform: scale(1.1)
+
+.Todo__item_info
+   position: absolute
+   right: 5px
+   bottom: 0
+   color: silver
+
+.Todo__item--done
+   text-decoration: line-through
+   color: silver
